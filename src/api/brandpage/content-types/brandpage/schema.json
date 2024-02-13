@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brandpages",
+  "info": {
+    "singularName": "brandpage",
+    "pluralName": "brandpages",
+    "displayName": "Brandpage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_title": {
+      "type": "string"
+    },
+    "about_description": {
+      "type": "richtext"
+    }
+  }
+}
