@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "homepages",
+  "collectionName": "termspages",
   "info": {
-    "singularName": "homepage",
-    "pluralName": "homepages",
-    "displayName": "Homepage",
+    "singularName": "termspage",
+    "pluralName": "termspages",
+    "displayName": "TermsPage",
     "description": ""
   },
   "options": {
@@ -12,11 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "slug": {
-      "type": "uid"
+    "content": {
+      "type": "richtext"
     },
     "seo": {
       "type": "component",

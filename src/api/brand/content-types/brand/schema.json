@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "brandpages",
+  "collectionName": "brands",
   "info": {
-    "singularName": "brandpage",
-    "pluralName": "brandpages",
-    "displayName": "Brandpage",
+    "singularName": "brand",
+    "pluralName": "brands",
+    "displayName": "Brand",
     "description": ""
   },
   "options": {
@@ -15,11 +15,9 @@
     "name": {
       "type": "string"
     },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     },
     "image": {
       "type": "media",
@@ -43,20 +41,20 @@
         "audios"
       ]
     },
-    "about_title": {
+    "aboutTitle": {
       "type": "string"
     },
-    "about_description": {
-      "type": "richtext"
+    "aboutDescription": {
+      "type": "text"
     },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+    "companyLegalName": {
+      "type": "string"
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "name"
+    "companyLegalDocument": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
