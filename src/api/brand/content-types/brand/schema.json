@@ -44,9 +44,6 @@
     "aboutTitle": {
       "type": "string"
     },
-    "aboutDescription": {
-      "type": "text"
-    },
     "companyLegalName": {
       "type": "string"
     },
@@ -55,6 +52,14 @@
     },
     "title": {
       "type": "string"
+    },
+    "aboutDescription": {
+      "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }
