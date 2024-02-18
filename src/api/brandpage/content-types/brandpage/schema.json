@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "slug": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     },
@@ -51,6 +48,15 @@
     },
     "about_description": {
       "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
