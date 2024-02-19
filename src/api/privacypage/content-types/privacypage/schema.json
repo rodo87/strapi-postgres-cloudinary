@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "privacy_pages",
+  "collectionName": "privacypages",
   "info": {
-    "singularName": "privacy-page",
-    "pluralName": "privacy-pages",
-    "displayName": "PrivacyPage",
-    "description": ""
+    "singularName": "privacypage",
+    "pluralName": "privacypages",
+    "displayName": "Privacypage"
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +14,9 @@
     "name": {
       "type": "string"
     },
+    "slug": {
+      "type": "uid"
+    },
     "content": {
       "type": "richtext"
     },
@@ -22,9 +24,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
-    },
-    "slug": {
-      "type": "uid"
     }
   }
 }
