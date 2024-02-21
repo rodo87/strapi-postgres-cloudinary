@@ -72,7 +72,7 @@
       "repeatable": true,
       "component": "blocks.social-media"
     },
-    "faqs": {
+    "brandFaqs": {
       "type": "component",
       "repeatable": true,
       "component": "blocks.faq"
