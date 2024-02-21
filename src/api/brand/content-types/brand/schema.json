@@ -60,6 +60,32 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "contactEmail": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.social-media"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.faq"
+    },
+    "seoSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.seo-sections"
+    },
+    "seoInterlinking": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.seo-interlinking"
     }
   }
 }

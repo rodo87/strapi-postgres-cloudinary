@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_seo_sections",
+  "info": {
+    "displayName": "SeoSections",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

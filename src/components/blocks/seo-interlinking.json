@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_seo_interlinkings",
+  "info": {
+    "displayName": "SeoInterlinking",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "detail": {
+      "displayName": "SeoInterlinkingDetail",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.seo-interlinking-detail"
+    }
+  }
+}

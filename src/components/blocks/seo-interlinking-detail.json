@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_seo_interlinking_details",
+  "info": {
+    "displayName": "SeoInterlinkingDetail",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

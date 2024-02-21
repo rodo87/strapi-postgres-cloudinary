@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_social_medias",
+  "info": {
+    "displayName": "SocialMedia",
+    "icon": "bread-slice"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "x",
+        "facebook",
+        "instagram",
+        "linkedin",
+        "youtube",
+        "discord"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
