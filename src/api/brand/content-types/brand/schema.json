@@ -86,6 +86,23 @@
       "type": "component",
       "repeatable": true,
       "component": "blocks.seo-interlinking"
+    },
+    "legalAddress": {
+      "type": "string"
+    },
+    "countryCode": {
+      "type": "enumeration",
+      "enum": [
+        "AR",
+        "MX",
+        "CL",
+        "CO",
+        "UY",
+        "ES",
+        "PE",
+        "BO"
+      ],
+      "default": "AR"
     }
   }
 }

@@ -29,6 +29,37 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "seoSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.seo-sections"
+    },
+    "seoInterlinking": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.seo-interlinking"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "child",
+        "parent"
+      ],
+      "default": "child"
+    },
+    "parentSlug": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
