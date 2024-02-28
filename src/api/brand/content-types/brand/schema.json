@@ -101,8 +101,10 @@
         "ES",
         "PE",
         "BO"
-      ],
-      "default": "AR"
+      ]
+    },
+    "contactPhone": {
+      "type": "string"
     }
   }
 }
